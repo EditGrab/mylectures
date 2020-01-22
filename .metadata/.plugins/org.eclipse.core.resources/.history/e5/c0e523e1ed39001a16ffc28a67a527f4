@@ -1,0 +1,24 @@
+
+public class ArraysPimitiveDataType {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		int[] arrays; // declare array with type int
+		// int arrays2[]; // var pierakstit ari sadi, bet labak pirmais variants
+		
+		arrays = new int[2];
+									// garaks un isaks pieraksts
+		int[] arr = new int[10];    // 11 kastites no 0 lidz 10
+		
+		int[] arrTest = new int[1];
+		
+		arrTest[0] = 10;
+		
+		System.out.println(arrTest[0]);
+				
+	}
+
+}
