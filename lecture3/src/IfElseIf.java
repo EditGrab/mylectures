@@ -8,7 +8,7 @@ public class IfElseIf {
 		
 		int time = 4;
 		//check time
-		if(time < 8){
+		if(time <= 8){
 			System.out.println("Good morning");
 		}else if(time <= 18){
 			System.out.println("Good day");
