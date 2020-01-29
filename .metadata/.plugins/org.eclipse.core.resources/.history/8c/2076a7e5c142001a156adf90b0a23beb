@@ -1,0 +1,5 @@
+package lv.edite.graph;
+
+public class Point4D {
+
+}

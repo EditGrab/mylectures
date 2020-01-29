@@ -1,0 +1,5 @@
+package lv.edite.users;
+
+public class Student {
+
+}

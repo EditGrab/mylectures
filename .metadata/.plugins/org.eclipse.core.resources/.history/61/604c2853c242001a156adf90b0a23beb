@@ -1,0 +1,5 @@
+package lv.edite.user;
+
+public class Person {
+
+}
