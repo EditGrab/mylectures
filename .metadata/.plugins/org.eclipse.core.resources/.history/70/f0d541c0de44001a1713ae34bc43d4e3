@@ -1,0 +1,18 @@
+package lv.edite.interfaces;
+
+public class Rectangle {
+	
+	private int length;
+	private int width;
+	
+	public Rectangle(int len, int wid){
+		this.length = len;
+		this.width = wid;
+				;
+		
+		
+		
+}
+	
+	
+}
