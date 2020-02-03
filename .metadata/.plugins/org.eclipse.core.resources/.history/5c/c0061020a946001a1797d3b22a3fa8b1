@@ -1,0 +1,30 @@
+package lv.edite;
+
+import java.util.Scanner;
+
+public class TestScannerInputArray {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		String[] strArr = new String[3];
+		Scanner sc = new Scanner(System.in);
+		int i = 0;
+		strArr[i] = sc.nextLine();
+		
+		strArr[0] = "Toms";
+		strArr[1]= "Elina";
+		strArr[2] = "Rebeka"; 
+		
+		 
+		
+		
+		
+			
+		
+
+	}
+
+}

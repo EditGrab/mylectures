@@ -11,4 +11,13 @@
 <fullyQualifiedTypeName name="lv.edite.graph.Point4D"/>
 <fullyQualifiedTypeName name="lv.edite.users.Teacher"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="lv.edite.encapsulation.Student"/>
+<fullyQualifiedTypeName name="lv.edite.inheritance.Golf"/>
+<fullyQualifiedTypeName name="lv.edite.polymorphism.Animal"/>
+<fullyQualifiedTypeName name="lv.edite.polymorphism.Dog"/>
+<fullyQualifiedTypeName name="lv.edite.polymorphism.Cat"/>
+<fullyQualifiedTypeName name="java.awt.Rectangle"/>
+<fullyQualifiedTypeName name="lv.edite.interfaces.Shape"/>
+<fullyQualifiedTypeName name="lv.edite.interfaces.Triangle"/>
+<fullyQualifiedTypeName name="lv.edite.interfaces.Rectangle"/>
 </qualifiedTypeNameHistroy>

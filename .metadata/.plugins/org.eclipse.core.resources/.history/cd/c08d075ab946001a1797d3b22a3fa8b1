@@ -1,0 +1,10 @@
+package lv.edite.module;
+
+public class Team {
+	
+	String name;
+	int wins;
+	int losses;
+	int ties;
+
+}

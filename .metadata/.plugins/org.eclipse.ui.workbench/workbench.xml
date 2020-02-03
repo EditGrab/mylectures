@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="18" version="2.0">
+<workbench progressCount="14" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -44,8 +44,8 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings (34 items)"/>
 <category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Warnings (35 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="886" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -278,50 +278,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Teacher.java" tooltip="lecture9/src/lv/edite/users/Teacher.java">
-<persistable path="/lecture9/src/lv/edite/users/Teacher.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="testArrayAndLists.java" tooltip="lecture10/src/lv/edite/testArrayAndLists.java">
+<persistable path="/lecture10/src/lv/edite/testArrayAndLists.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestPerson.java" tooltip="lecture9/src/lv/edite/TestPerson.java">
 <persistable path="/lecture9/src/lv/edite/TestPerson.java"/>
 </file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Teacher.java" tooltip="lecture9/src/lv/edite/users/Teacher.java">
+<persistable path="/lecture9/src/lv/edite/users/Teacher.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Student.java" tooltip="lecture9/src/lv/edite/users/Student.java">
 <persistable path="/lecture9/src/lv/edite/users/Student.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point2D.java" tooltip="lecture9/src/lv/edite/graph/Point2D.java">
-<persistable path="/lecture9/src/lv/edite/graph/Point2D.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Person.java" tooltip="lecture9/src/lv/edite/users/Person.java">
 <persistable path="/lecture9/src/lv/edite/users/Person.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Person.java" tooltip="lecture9/src/lv/edite/user/Person.java">
-<persistable path="/lecture9/src/lv/edite/user/Person.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Triangle.java" tooltip="lecture10/src/lv/edite/interfaces/Triangle.java">
+<persistable path="/lecture10/src/lv/edite/interfaces/Triangle.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point4D.java" tooltip="lecture9/src/lv/edite/graph/Point4D.java">
-<persistable path="/lecture9/src/lv/edite/graph/Point4D.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Rectangle.java" tooltip="lecture10/src/lv/edite/interfaces/Rectangle.java">
+<persistable path="/lecture10/src/lv/edite/interfaces/Rectangle.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point3D.java" tooltip="lecture9/src/lv/edite/graph/Point3D.java">
-<persistable path="/lecture9/src/lv/edite/graph/Point3D.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Shape.java" tooltip="lecture10/src/lv/edite/interfaces/Shape.java">
+<persistable path="/lecture10/src/lv/edite/interfaces/Shape.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Author.java" tooltip="lecture8/src/lv/edite/bookstore/Author.java">
-<persistable path="/lecture8/src/lv/edite/bookstore/Author.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestInterface.java" tooltip="lecture10/src/lv/edite/TestInterface.java">
+<persistable path="/lecture10/src/lv/edite/TestInterface.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestInheritance.java" tooltip="lecture9/src/lv/edite/TestInheritance.java">
-<persistable path="/lecture9/src/lv/edite/TestInheritance.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Cat.java" tooltip="lecture10/src/lv/edite/polymorphism/Cat.java">
+<persistable path="/lecture10/src/lv/edite/polymorphism/Cat.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestFigure.java" tooltip="lecture8/src/lv/edite/TestFigure.java">
-<persistable path="/lecture8/src/lv/edite/TestFigure.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Dog.java" tooltip="lecture10/src/lv/edite/polymorphism/Dog.java">
+<persistable path="/lecture10/src/lv/edite/polymorphism/Dog.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Rectangle.java" tooltip="lecture8/src/lv/edite/figure/Rectangle.java">
-<persistable path="/lecture8/src/lv/edite/figure/Rectangle.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Animal.java" tooltip="lecture10/src/lv/edite/polymorphism/Animal.java">
+<persistable path="/lecture10/src/lv/edite/polymorphism/Animal.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Book.java" tooltip="lecture8/src/lv/edite/bookstore/Book.java">
-<persistable path="/lecture8/src/lv/edite/bookstore/Book.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestPolyMorphism.java" tooltip="lecture10/src/lv/edite/TestPolyMorphism.java">
+<persistable path="/lecture10/src/lv/edite/TestPolyMorphism.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestBookStore.java" tooltip="lecture8/src/lv/edite/TestBookStore.java">
-<persistable path="/lecture8/src/lv/edite/TestBookStore.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BMW.java" tooltip="lecture10/src/lv/edite/inheritance/BMW.java">
+<persistable path="/lecture10/src/lv/edite/inheritance/BMW.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ScannerAndArrays.java" tooltip="lecture7/src/lv/edite/repeatarrays/ScannerAndArrays.java">
-<persistable path="/lecture7/src/lv/edite/repeatarrays/ScannerAndArrays.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Golf.java" tooltip="lecture10/src/lv/edite/inheritance/Golf.java">
+<persistable path="/lecture10/src/lv/edite/inheritance/Golf.java"/>
 </file>
 </mruList>
 </workbench>
