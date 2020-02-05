@@ -1,0 +1,19 @@
+package lv.edite;
+
+public class TestExceptionHandling {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		int number1 = 5;
+		int number2 = 10;
+		int result = number2 / number1;
+				
+		System.out.println(result);
+		
+		
+	}
+
+}
