@@ -19,6 +19,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditorNoSource" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -42,11 +43,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Warnings (39 items)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="886" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -278,11 +274,29 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="League.java" tooltip="League/src/lv/edite/module/League.java">
-<persistable path="/League/src/lv/edite/module/League.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestTeamAndLeague.java" tooltip="League/src/lv/edite/test/TestTeamAndLeague.java">
+<persistable path="/League/src/lv/edite/test/TestTeamAndLeague.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Team.java" tooltip="League/src/lv/edite/module/Team.java">
 <persistable path="/League/src/lv/edite/module/Team.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="League.java" tooltip="League/src/lv/edite/module/League.java">
+<persistable path="/League/src/lv/edite/module/League.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditorNoSource" name="ArithmeticException.class" tooltip="java.lang.ArithmeticException">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=lecture12/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.lang(ArithmeticException.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestThrow.java" tooltip="lecture12/src/lv/edite/TestThrow.java">
+<persistable path="/lecture12/src/lv/edite/TestThrow.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestExceptionHandling.java" tooltip="lecture12/src/lv/edite/TestExceptionHandling.java">
+<persistable path="/lecture12/src/lv/edite/TestExceptionHandling.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestDateInJava.java" tooltip="lecture12/src/lv/edite/TestDateInJava.java">
+<persistable path="/lecture12/src/lv/edite/TestDateInJava.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestRegex.java" tooltip="lecture12/src/lv/edite/TestRegex.java">
+<persistable path="/lecture12/src/lv/edite/TestRegex.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestArraysWithObjects.java" tooltip="lecture11/src/lv/edite/TestArraysWithObjects.java">
 <persistable path="/lecture11/src/lv/edite/TestArraysWithObjects.java"/>
@@ -304,24 +318,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArraysInitialization.java" tooltip="lecture4/src/ArraysInitialization.java">
 <persistable path="/lecture4/src/ArraysInitialization.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ScannerInput.java" tooltip="lecture5/src/ScannerInput.java">
-<persistable path="/lecture5/src/ScannerInput.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArraysPimitiveDataType.java" tooltip="lecture3/src/ArraysPimitiveDataType.java">
-<persistable path="/lecture3/src/ArraysPimitiveDataType.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestScannerInputArray.java" tooltip="lecture11/src/lv/edite/TestScannerInputArray.java">
-<persistable path="/lecture11/src/lv/edite/TestScannerInputArray.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="testArrayAndLists.java" tooltip="lecture10/src/lv/edite/testArrayAndLists.java">
-<persistable path="/lecture10/src/lv/edite/testArrayAndLists.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestPerson.java" tooltip="lecture9/src/lv/edite/TestPerson.java">
-<persistable path="/lecture9/src/lv/edite/TestPerson.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Teacher.java" tooltip="lecture9/src/lv/edite/users/Teacher.java">
-<persistable path="/lecture9/src/lv/edite/users/Teacher.java"/>
 </file>
 </mruList>
 </workbench>
