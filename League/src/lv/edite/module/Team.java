@@ -2,10 +2,10 @@ package lv.edite.module;
 
 public class Team {
 	
-	private String name;
-	private int wins;
-	private int losses;
-	private int ties;
+	public String name;
+	public int wins;
+	public int losses;
+	public int ties;
 	
 	public Team(String nameOfTeam){
 		this.name = nameOfTeam;
@@ -43,13 +43,18 @@ public class Team {
 
 	@Override
 	public String toString() {
-		return "Team [name=" + name + ", wins=" + wins + ", losses=" + losses
+		return "\nTeam [name=" + name + ", wins=" + wins + ", losses=" + losses
 				+ ", ties=" + ties + "]";
 	}
 
 	public int gamesPlayed(){
 		return this.wins + this.losses + this.ties;
 	
-}
-}
+	}
+	
+	public int totalPoint(){
+		return (this.wins * 2 + this.ties);
+	}
+	
+	}
 

@@ -1,0 +1,41 @@
+package lv.edite.test;
+
+import java.util.ArrayList;
+
+import lv.edite.module.League;
+import lv.edite.module.Team;
+
+public class TestTeamAndLeague {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		ArrayList<Team> khlTeam = new ArrayList<>();
+		
+		Team ska = new Team("SKA");
+		Team cska = new Team("CSKA");
+		Team dinamo = new Team("DINAMO");
+		
+		System.out.println("Team total point: "+ska.totalPoint());
+		
+		khlTeam.add(ska);
+		khlTeam.add(cska);
+		khlTeam.add(dinamo);
+		League khl = new League ("KHL");
+		//khl.nameOfTeams.add(cska);
+		
+		khl.recordWinAndLoss(cska, dinamo);
+		khl.recordWinAndLoss(ska, dinamo);
+		
+		khl.recordTie(ska, cska);
+		
+		khl.setNameOfTeams(khlTeam);
+		
+		System.out.println(khl.toString());
+		
+
+	}
+
+}
