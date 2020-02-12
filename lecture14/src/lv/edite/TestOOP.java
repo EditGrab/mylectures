@@ -1,0 +1,83 @@
+package lv.edite;
+
+import lv.edite.repeatJavaClassOOP.ClassExtendsAbstractClass;
+import lv.edite.repeatJavaClassOOP.EncapsClasss;
+import lv.edite.repeatJavaClassOOP.ImplementInterface;
+import lv.edite.repeatJavaClassOOP.MyClass;
+import lv.edite.repeatJavaClassOOP.MyClassConstructor;
+import lv.edite.repeatJavaClassOOP.MyClassMethods;
+
+public class TestOOP {
+	
+	public static void main(String[] args){
+		
+		MyClass newObj = new MyClass();
+		MyClass newObj2 = new MyClass();
+		
+		String strObj = "hello";
+		String strObj2 = "hello2";
+		
+		System.out.println(newObj.equals(newObj2));
+		System.out.println(strObj.equals(strObj2));
+		
+		System.out.println(strObj == strObj2);
+		
+		System.out.println(newObj.x);
+		
+		//MyClassMethods myObjMethod = new MyClassMethods();
+		//myObjMethod.myMethod();
+		//myObjMethod.myStringMethod();
+		//System.out.println(myObjMethod.myStringMethod());
+		
+		MyClassMethods myObjMethod = new MyClassMethods();
+		double numberDouble = 0;
+		// double num = numberDouble + numberDouble();
+		numberDouble = myObjMethod.returnDouble();
+		System.out.println(numberDouble);
+		
+		System.out.println(myObjMethod.returnChar(100000000, 20000000));
+				
+		//newObj.getClass();
+		//newObj.x = 0;
+		
+		MyClassConstructor myConstructorObj1 = new MyClassConstructor(1999L, "Bmw");
+		MyClassConstructor myConstructorObj2 = new MyClassConstructor(1997L, "Bmw");
+		MyClassConstructor myConstructorObj3 = new MyClassConstructor(2012L, "Bmw");
+		MyClassConstructor myConstructorObj4 = new MyClassConstructor(2015L, "Bmw");
+		
+		System.out.println(myConstructorObj1.getModelName().equals(myConstructorObj4.getModelName()));
+		
+		System.out.println(myConstructorObj1.getModelName());
+		
+		
+		EncapsClasss objEncps = new EncapsClasss();
+		System.out.println(objEncps.getUser());
+		objEncps.setUser("Edite");
+		System.out.println(objEncps.getUser());
+		
+		
+		ImplementInterface objInterface = new ImplementInterface();
+		objInterface.sendEmail();
+		System.out.println(objInterface.sendEmailCount());
+		System.out.println(objInterface.sendEmailCount());
+		
+	}
+	
+		// String numberStr = "240";
+		
+		//double numberDoubleW = Double.parseDouble(numberStr);
+		//int result = 30 + numberInt;
+		//System.out.println(numberInt);
+	
+
+	
+		String numberStrValue = "20";
+		Integer valueInt = Integer.valueOf(numberStrValue);
+		
+		ClassExtendsAbstractClass objAbstractClass = new ClassExtendsAbstractClass();
+		objAbstractClass.sleep();
+		objAbstractClass.abstractMethod();
+		
+}
+	
+

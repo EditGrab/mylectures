@@ -1,0 +1,23 @@
+package lv.edite.repeatJavaClassOOP;
+
+public class MyClassMethods {
+	
+	public MyClass myClass;
+	public MyClass createNewObjMyClass(){
+		return new MyClass();
+	}
+	
+	public static void myMethod(){
+		
+		System.out.println("Hello world!");
+	}
+	
+	public String myStringMethod(){
+		
+		myMethod();
+		
+		
+		return "Hello";
+		
+	}
+}

@@ -1,0 +1,10 @@
+package lv.edite.repeatJavaClassOOP;
+
+public class MyClassMethods {
+	
+	static void myMethod(){
+		
+		System.out.println("Hello world!");
+	}
+
+}

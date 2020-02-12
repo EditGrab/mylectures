@@ -1,0 +1,21 @@
+package lv.edite.repeatJavaClassOOP;
+
+public class ImplementInterface implements InterfaceClass {
+
+	public void sendEmail() {
+		System.out.println("email@email.com");
+		
+	}
+
+	public int sendEmailCount() {
+		int i = 0;
+		return ++i;
+	}
+
+
+	
+		
+	}
+	
+	
+
